@@ -2,8 +2,6 @@ pragma solidity ^0.4.11;
 
 import "contracts/Safe.sol";
 
-// Class variables used both in NumeraireBackend and NumeraireDelegate
-
 contract NumeraireShared is Safe {
 
     address public numerai = this;
